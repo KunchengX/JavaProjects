@@ -30,7 +30,6 @@ public class Dog {
     // void sleep() {
     //     System.out.println("Dog is sleeping.");
     // }
-    // TODO: implement a setter, a getter to each variable of the dog.
 
 
     public static void main (String [] args) {
