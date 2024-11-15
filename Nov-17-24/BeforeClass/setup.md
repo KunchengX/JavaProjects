@@ -78,3 +78,13 @@ Please provide your GitHub account username to teacher, then he can add you to t
 ![Clone Respority](./pictures/CloneRespority.png)
 
 ### 2.6 Git Commit
+
+After class teacher added you to project contributor.
+
+![Git commit](./pictures/Commit.png)
+
+![Git push](./pictures/Push.png)
+
+You can also commit on VS Code.
+
+![Git commit on VSC](./pictures/CommitVSC.png)
