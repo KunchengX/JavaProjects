@@ -88,3 +88,9 @@ After class teacher added you to project contributor.
 You can also commit on VS Code.
 
 ![Git commit on VSC](./pictures/CommitVSC.png)
+
+## Done!
+
+You are now finished all setup progress.
+
+Don't foget to finish the pratice of Xindongfang's online lesson, chapter 2.
