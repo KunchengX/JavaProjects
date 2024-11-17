@@ -32,10 +32,12 @@
 
 #### Feedback
 
-- Xuanyu was contritrated on during class
+- Xuanyu was concentrated on during class
 
 - Need be aware of the difference between the `Constructor` and the `Getter`
 
 - Needs a clearer understanding of the scope of functions, nesting levels, and the meaning of curly braces `{}`
 
-- Please share exercises and homeworks earlier so the teacher could be more prepared to make it easire to absorb for the student.
+- Please share exercises and homeworks earlier so the teacher could be more prepared to make it easire to absorb for the student
+
+- Class paste should be slower for student to digest

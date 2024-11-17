@@ -1,7 +1,7 @@
 public class TestingTeacher {
     public static void main(String[] args) {
         Teacher JohnDoe = new Teacher("John", "Doe", "123 Main St.");
-        JohnDoe.createStudent("Jane", "Doe", "456 Elm St.");
+        JohnDoe.createStudent("Jane", "Doe");
         JohnDoe.PrintInfoTeacher();
     }
 }
@@ -9,10 +9,9 @@ public class TestingTeacher {
 class Student {
     String name;
     String surname;
-    String address;
     Teacher teach;
 
-    public Student(String name, String surname, String address, Teacher teach) {
+    public Student(String name, String surname, Teacher teach) {
         this.name = name;
         this.surname = surname;
         this.teach = teach;
@@ -77,8 +76,8 @@ class Teacher {
      * @param studentAddress the address of the student
      * @param this the teacher associated with the student
      */
-    public void createStudent(String studentName, String studentSurname, String studentAddress) {
-        this.std = new Student(studentName, studentSurname, studentAddress, this);
+    public void createStudent(String studentName, String studentSurname) {
+        this.std = new Student(studentName, studentSurname, this);
     }
 
     public void PrintInfoTeacher() {
