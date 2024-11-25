@@ -1,3 +1,5 @@
+package Nov_22_24.OnClass;
+
 public class AnimalTest {
     public static void main(String[] args) {
         Animal fish = new Animal();
