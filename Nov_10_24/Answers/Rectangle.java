@@ -1,4 +1,4 @@
-public class Rectangle {
+class Rectangle {
     private final double length;
     private final double width;
 
@@ -24,14 +24,5 @@ public class Rectangle {
         System.out.println("Length: " + this.length);
         System.out.println("Width: " + this.width);
         System.out.println("Area: " + this.area());
-    }
-
-    public static void main(String[] args) {
-        // Test the Rectangle class
-        Rectangle defaultRectangle = new Rectangle();
-        defaultRectangle.displayRectangleInfo();
-
-        Rectangle customRectangle = new Rectangle(5, 3);
-        customRectangle.displayRectangleInfo();
     }
 }

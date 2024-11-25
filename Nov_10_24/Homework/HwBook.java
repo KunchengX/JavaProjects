@@ -1,4 +1,4 @@
-public class Book {
+class HwBook {
    String title;
    String author;
    int pages; 
@@ -20,12 +20,12 @@ public class Book {
         this.pages = pages;
     }
 
-   public void displayInfo(){
-    System.out.println(title + " " + author + " " + pages);
-   }
+    public void displayInfo() {
+        System.out.println(title + " " + author + " " + pages);
+    }
 
    public static void main(String[] args) {
-    Book newBook = new Book();
+    HwBook newBook = new HwBook();
 
     newBook.setDetail("Hello", "Goodbye", 23);
  

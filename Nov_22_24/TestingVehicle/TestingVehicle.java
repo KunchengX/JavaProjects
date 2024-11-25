@@ -1,6 +1,6 @@
 public class TestingVehicle {
     public static void main(String[] args) {
-        Car car = new Car("Toyota", 50, 4, 20, "gasoline", true);
+        Car car = new Car("Toyota", 100, 5, 20, "Gasoline", true);
         Truck truck = new Truck("Ford", 80, 5, 500, true);
         Bus bus = new Bus("BYD", 35, 30, "line 15", true, 4);
 

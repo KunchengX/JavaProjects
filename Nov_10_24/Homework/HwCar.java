@@ -1,4 +1,4 @@
-public class Car {
+class HwCar {
     String make;
     String model;
     int year;
@@ -17,13 +17,5 @@ public class Car {
 
     public void displayCarInfo(){
         System.out.println(make + " " + model + " " + year);
-    }
-
-    public static void main(String[] args) {
-        Car ferrari = new Car();
-        ferrari.setDefault();
-        ferrari.displayCarInfo();
-        ferrari.setCar("Ferrari", "F40", 30);
-        ferrari.displayCarInfo();
     }
 }

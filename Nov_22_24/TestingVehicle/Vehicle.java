@@ -1,4 +1,4 @@
-public class Vehicle {
+class Vehicle {
     String brand;
     int speed, capacity;
     

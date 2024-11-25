@@ -1,29 +1,19 @@
 package WeekdayExercises.November.Nov_25_2024;
 
-// Main class
-public class Main {
-    public static void main(String[] args) {
-        // Create a car object
-        // YOUR CODE
-        Car car = new Car("Car", "Toyota");
-        car.displayInfo();
-    }
-}
-
 // Vehicle class (Superclass)
 class Vehicle {
     // YOUR CODE declare attribute
     String type;
-
     // Constructor
     public Vehicle(String type) {
         // YOUR CODE
-        this.type = type;
+        this.type = type;    
     }
-
+    
     // Getter for type
     public String getType() {
-        return this.type;
+        // YOUR CODE
+        return type;
     }
 }
 
@@ -31,16 +21,32 @@ class Vehicle {
 class Car extends Vehicle {
     // YOUR CODE declare attribute
     String brand;
-
     // Constructor
     public Car(String type, String brand) {
+        // Call to the superclass's constructor
+        // YOUR CODE initialize attribute
         super(type);
         this.brand = brand;
     }
 
     // Method to display car info
     public void displayInfo() {
-        System.out.println("Vehicle Type: " + this.getType());
-        System.out.println("Car Brand: " + this.brand);
+        // YOUR CODE prints out vehicle type
+        // YOUR CDOE prints out car brand
+        System.out.println("Vehicle Type: " + type);
+        System.out.println("Car Brand: " + brand);
+    }
+}
+
+// Main class
+public class Main {
+    public static void main(String args[]) {
+        // Create a Car object
+        // YOUR CODE
+        Car myCar = new Car("Sedan", "Honda");
+
+        // Display the details
+        // YOUR CODE
+        myCar.displayInfo();
     }
 }
