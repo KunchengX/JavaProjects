@@ -10,7 +10,7 @@
 
 ### Nov-10-2024
 
-[Click here to view class summary]()
+[Click here to view class summary](./Nov_10_24/summary.md)
 
 ### Nov-17-2024
 
