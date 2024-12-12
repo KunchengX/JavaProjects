@@ -1,4 +1,4 @@
-package WeekdayExercises.December.Human;
+package WeekdayExercises.December.Dec_05_2024.Human;
 
 public class TestHuman {
     public static void main(String[] args) {

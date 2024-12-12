@@ -1,4 +1,4 @@
-package WeekdayExercises.December.Animal;
+package WeekdayExercises.December.Dec_05_2024.Animal;
 
 public class TestingInheritance {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package WeekdayExercises.December.Life;
+package WeekdayExercises.December.Dec_05_2024.Life;
 
 public class TestLife {
 

@@ -1,3 +1,5 @@
+package Nov_10_24.Answers;
+
 class Rectangle {
     private final double length;
     private final double width;

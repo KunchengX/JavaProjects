@@ -1,0 +1,13 @@
+toString()
+
+int / double / etc -> String
+
+equals()
+
+obj.method()
+
+someObj.equals(anotherOBJ) --> returns boolean (true / false)
+
+
+equals() / == 
+difference?
